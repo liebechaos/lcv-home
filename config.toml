@@ -2,3 +2,6 @@ baseURL = "http://liebechaos.org/"
 languageCode = "en-us"
 title = "Liebe Chaos Verein"
 theme = "amsel"
+
+[params]
+  mainSections = ["activites", "reflections"]

@@ -1,6 +1,7 @@
 ---
 title: "Impressum"
 date: 2019-12-23T16:26:28+01:00
+weight: 100
 ---
 
 Verantwortlich für den Inhalt dieser Seiten ist der Liebe Chaos Verein e.V. i.G.

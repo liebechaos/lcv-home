@@ -2,12 +2,19 @@ body {
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     font-size: 16px;
     min-height: 100vh;
+    min-width: 320px;
+    line-height: 1.2em;
+}
+
+@media only screen and (min-width: 1440px) {
+    body { font-size: 32px; }
 }
 
 h1 {
+    font-family: 'Press Start 2P', cursive;
     font-size: 2em;
     font-weight: bold;
     margin: 1em auto .6em;
@@ -18,6 +25,10 @@ h2 {
     margin: 1em auto .6em;
 }
 
+h3 {
+    margin: 1em auto .6em;
+}
+
 p, ol, ul {
     color: #333;
     margin-bottom: 1em;
@@ -25,9 +36,11 @@ p, ol, ul {
 
 p:last-child, ol:last-child, ul:last-child { margin-bottom: 0 }
 ol, ul {
-    list-style: myanmar;
+    list-style: square;
     padding-left: 20px;
 }
+
+a:visited, a:active { color: #333; }
 
 li {
     margin-bottom: .5em;
@@ -50,12 +63,12 @@ header a, header a:visited, header a:active {
 header a:hover { color: magenta; }
 
 #content {
-    padding: 0 .75em;
     flex-grow: 1;
     align-items: stretch;
 }
 
 #content section {
+    padding: 0 .75em;
     margin: 1em 0 2em;
     max-width: 40em;
 }
@@ -65,7 +78,7 @@ header a:hover { color: magenta; }
 }
 
 header section {
-    margin-bottom: .5em;
+    margin-bottom: 1em;
 }
 
 header section:last-child { margin-bottom: 0; }
@@ -73,6 +86,27 @@ header section:last-child { margin-bottom: 0; }
 header section h1 {
     font-weight: 2;
     font-style: italic;
+    margin: 0;
+}
+
+.breadcrumbnav {
+    font-size: .9em;
+    background-color: darkblue;
+    list-style: none;
+    padding: 7px 5px 7px 0.75em;
+}
+
+.breadcrumbnav li {
+    display: inline;
+    color: blue;
+}
+
+.breadcrumbnav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.breadcrumbnav li:last-child {
     margin-bottom: 0;
 }
 
@@ -80,13 +114,18 @@ footer {
     font-size: 0.8em;
     color: #888;
     padding: 1em .75em;
+    margin-top: 2em;
 }
 
 footer a { color: #666; }
 
 header, main, footer {flex-shrink: 0;}
 
-@media only screen and (min-width: 500px){
+.latest ul {
+    list-style: none;
+}
+
+@media only screen and (min-width: 700px){
     header {
         padding: 6em 4em 2em;
         flex-direction: row;
@@ -94,34 +133,54 @@ header, main, footer {flex-shrink: 0;}
 
     header section {
         text-align: center;
+        margin-bottom: 0;
     }
 
-    #content {
+    #content section, div.home {
         padding: 0 4em;
     }
 
+    .breadcrumbnav {
+        padding: 7px 4em 7px 4em;
+    }
+
     footer {
-        padding: 1em 4em;
+        padding: 1em 4.75em;
     }
 
     ol, ul {
-        list-style: myanmar;
+        list-style: square;
         padding-left: 0;
     }
 
-    .opening-quote {
+    div.opening-quote {
         font-size: 1.2em;
-        margin-top: 5em;
+        margin-top: 2em;
         max-width: 30em;
     }
 
     .post-date {
         float: right;
     }
+
+    div.home {
+        flex-direction: row;
+    }
+
+    .latest {
+        padding-left: 2em;
+        padding-top: 1em;
+    }
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 1em .75em 0 .75em;
 }
 
 .opening-quote {
-    margin-top: 2em;
+    margin-top: 0em;
 }
 
 .opening-quote span {
@@ -132,4 +191,14 @@ header, main, footer {flex-shrink: 0;}
     font-style: italic;
     line-height: 1.4em;
     margin-bottom: 1em;
+}
+
+.construction {
+    margin-top: 2em;
+}
+
+.construction img {
+    vertical-align: middle;
+    width: 2em;
+    height: 2em;
 }
