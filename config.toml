@@ -5,3 +5,6 @@ theme = "amsel"
 
 [params]
   mainSections = ["activites", "reflections"]
+
+[markup.goldmark.renderer]
+unsafe= true

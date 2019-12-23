@@ -125,6 +125,16 @@ header, main, footer {flex-shrink: 0;}
     list-style: none;
 }
 
+.img-shortcode img {
+    max-width: 100%;
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+}
+
 @media only screen and (min-width: 700px){
     header {
         padding: 6em 4em 2em;

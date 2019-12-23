@@ -26,3 +26,5 @@ Von allen Besuchern werden gespeichert und auf unbestimmte Zeit aufbewahrt:
 * der Referer.
 
 Die IP-Adresse, von der aus die Seite abgerufen wurde, speichern wir nicht. Somit läßt sich anhand unserer Logdaten kaum ein Zusammenhang zu einzelnen Besuchern herstellen. Wir verwenden auch keine Cookies, um Benutzer zu identifizieren. Wir geben die geloggten Daten nicht an Dritte weiter. Wir versuchen, im Rahmen der üblichen Vorsichtsmaßnahmen zur Sicherung unseres Servers zu verhindern, daß Dritte von diesen Daten Kenntnis erlangen.
+
+{{<construction >}}
