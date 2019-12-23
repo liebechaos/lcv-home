@@ -9,14 +9,14 @@
           <h2>Lore</h2>
           <ul>
           {{ range .Pages.ByWeight }}
-            <a href="{{.Permalink}}"><li>{{.Title}}</li></a>
+            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
           {{ end }}
           </ul>
         {{ else }}
           <h2>{{.Title}}</h2>
           <ul>
           {{ range .Pages.ByDate.Reverse }}
-            <a href="{{.Permalink}}"><li>{{.Title}}</li></a>
+            <li><a href="{{.Permalink}}">{{.Title}}</a></li>
           {{ end }}
           </ul>
         {{ end }}

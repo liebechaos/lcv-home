@@ -9,12 +9,8 @@ body {
     line-height: 1.2em;
 }
 
-@media only screen and (min-width: 1440px) {
-    body { font-size: 32px; }
-}
-
 h1 {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', monospace;
     font-size: 2em;
     font-weight: bold;
     margin: 1em auto .6em;
@@ -64,7 +60,8 @@ header a:hover { color: magenta; }
 
 #content {
     flex-grow: 1;
-    align-items: stretch;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 #content section {
@@ -73,20 +70,20 @@ header a:hover { color: magenta; }
     max-width: 40em;
 }
 
+#content h1 {
+    line-height: 1.2em;
+}
+
 .post-date {
     font-size: 0.8em;
 }
 
-header section {
-    margin-bottom: 1em;
-}
+header h1:last-child { margin-bottom: 0; }
 
-header section:last-child { margin-bottom: 0; }
-
-header section h1 {
+header h1 {
     font-weight: 2;
     font-style: italic;
-    margin: 0;
+    margin: 0 0 .5em 0;
 }
 
 .breadcrumbnav {
@@ -125,6 +122,14 @@ header, main, footer {flex-shrink: 0;}
     list-style: none;
 }
 
+.latest li, .latest a {
+    display: inline-block;
+}
+
+.latest li, .latest a {
+    width: 100%;
+}
+
 .img-shortcode img {
     max-width: 100%;
 }
@@ -141,7 +146,7 @@ figcaption {
         flex-direction: row;
     }
 
-    header section {
+    header h1 {
         text-align: center;
         margin-bottom: 0;
     }
@@ -204,6 +209,7 @@ figcaption {
 }
 
 .construction {
+    display: flex;
     margin-top: 2em;
 }
 
@@ -211,4 +217,5 @@ figcaption {
     vertical-align: middle;
     width: 2em;
     height: 2em;
+    margin-right: 5px;
 }

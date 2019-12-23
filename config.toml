@@ -1,4 +1,4 @@
-baseURL = "http://liebechaos.org/"
+baseURL = "https://liebechaos.org/"
 languageCode = "en-us"
 title = "Liebe Chaos Verein"
 theme = "amsel"
