@@ -1,12 +1,135 @@
 body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
+    min-height: 100vh;
 }
 
 h1 {
     font-size: 2em;
+    font-weight: bold;
+    margin: 1em auto .6em;
 }
 
-.root {
-    padding: 1em;
+h2 {
+    font-size: 1.6em;
+    margin: 1em auto .6em;
+}
+
+p, ol, ul {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+p:last-child, ol:last-child, ul:last-child { margin-bottom: 0 }
+ol, ul {
+    list-style: myanmar;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: .5em;
+}
+
+header {
+    padding: 3em .75em 2em;
+    color: whitesmoke;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header a, header a:visited, header a:active {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header a:hover { color: magenta; }
+
+#content {
+    padding: 0 .75em;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+#content section {
+    margin: 1em 0 2em;
+    max-width: 40em;
+}
+
+.post-date {
+    font-size: 0.8em;
+}
+
+header section {
+    margin-bottom: .5em;
+}
+
+header section:last-child { margin-bottom: 0; }
+
+header section h1 {
+    font-weight: 2;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #888;
+    padding: 1em .75em;
+}
+
+footer a { color: #666; }
+
+header, main, footer {flex-shrink: 0;}
+
+@media only screen and (min-width: 500px){
+    header {
+        padding: 6em 4em 2em;
+        flex-direction: row;
+    }
+
+    header section {
+        text-align: center;
+    }
+
+    #content {
+        padding: 0 4em;
+    }
+
+    footer {
+        padding: 1em 4em;
+    }
+
+    ol, ul {
+        list-style: myanmar;
+        padding-left: 0;
+    }
+
+    .opening-quote {
+        font-size: 1.2em;
+        margin-top: 5em;
+        max-width: 30em;
+    }
+
+    .post-date {
+        float: right;
+    }
+}
+
+.opening-quote {
+    margin-top: 2em;
+}
+
+.opening-quote span {
+    font-size: .8em;
+}
+
+.opening-quote p {
+    font-style: italic;
+    line-height: 1.4em;
+    margin-bottom: 1em;
 }
