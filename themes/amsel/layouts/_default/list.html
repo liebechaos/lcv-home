@@ -1,0 +1,12 @@
+{{ define "main" -}}
+{{- partial "breadcrumb.html" . -}}
+<section>
+    <ol class="posts">
+    {{ range .Data.Pages.Reverse -}}
+    <li>
+        <span><a href="{{ .Permalink | safeURL }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
+    </li>
+    {{- end }}
+    </ol>
+</section>
+{{- end }}

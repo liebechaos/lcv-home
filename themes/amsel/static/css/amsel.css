@@ -164,7 +164,7 @@ figcaption {
     }
 
     div.opening-quote {
-        font-size: 1.2em;
+        font-size: 1.15em;
         margin-top: 2em;
         max-width: 30em;
     }
@@ -193,7 +193,7 @@ figcaption {
     margin-top: 0em;
 }
 
-.opening-quote span {
+.opening-quote em {
     font-size: .8em;
 }
 

@@ -1,22 +1,7 @@
 {{ define "main" -}}
 <div class="home">
   <div class="opening-quote">
-    <p>
-      It reminded me of the feeling when you sit around a campfire, suddenly all
-      interactions slow right down as people are occupied with the flickering
-      flames and changing colors. Both these activities posses a sense of
-      sharing, safety and community. It's hard to say why this is, it is calming
-      and disarming. Maybe it has something to do with having a simple task or
-      function to perform, which acts both as a shared foundation and personal
-      safety net.
-    </p>
-    <p>
-      The future should be Agar Agar 3000. More campfires and boiling pots to
-      sit around, more undefined spaces, shared activities from which we can
-      take great risks. Definite experimentation with indefinite results.
-      Activity and reflection.
-    </p>
-    <span>From the constitution of Liebe Chaos Verein e.V. i.G.</span>
+    {{.Content}}
   </div>
   <div class="latest">
     {{ range .Pages }}
