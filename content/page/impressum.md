@@ -6,14 +6,14 @@ weight: 100
 
 Verantwortlich für den Inhalt dieser Seiten ist der Liebe Chaos Verein e.V. i.G.
 
-Für Kontakt zu uns schreibe bitte eine E-Mail an <a href="mailto:kontakt@liebechaos.org">kontakt@liebechaos.org</a>.
+Für Kontakt zu uns schreibe bitte eine E-Mail an <a href="mailto:mail@liebechaos.org">mail@liebechaos.org</a>.
 
 Für Schneckenpost nutze auch die Adresse:
 
 Liebe Chaos Verein e.V. i.G.  
-c/o Andreas Dzialocha  
-Straße 1  
-Berlin
+c/o David / Dzialocha
+Turmstr. 20A
+10559 Berlin
 
 ## Datenschutz
 
