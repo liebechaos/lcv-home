@@ -4,11 +4,6 @@ This is the source code for the Liebe Chaos Verein-Homepage.
 It is built with [Hugo](https://gohugo.io/) so you don't need to know anything 
 about programming to add content to it.
 
-## How do I deploy it?
-
-The shell script `./deploy.sh` contains the commands necessary to deploy the
-site. You need to edit in your ssh account details.
-
 ## How can I add my thing?
 
 If you want to add a Verein-activity to the site you need to create a file with
@@ -23,6 +18,7 @@ Start by pasting this bit into the file
 title: "hello"
 date: 2019-11-21T18:00:00+01:00
 ---
+The new Verein-activity is called hello and you can find out everything about it below...
 ```
 
 then, replace the title and date with something meaningful such as the start of
@@ -31,6 +27,13 @@ as it is above.
 
 Save the file with a name ending in `.md` and create a pull request with the
 form below the text editor.
+
+## How do I deploy it?
+
+A Github Action is setup to deploy all pull requests merged into `master`.
+
+Alternatively, a shell script can be made based on `./deploy.sample.sh`, which contains 
+the commands necessary to deploy the site. You need to edit in your ssh account details.
 
 ## I have a question
 
