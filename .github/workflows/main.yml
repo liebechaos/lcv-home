@@ -1,0 +1,32 @@
+name: Continuous Integration
+on:
+  push:
+    branches:
+    - master
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Git checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.70.0'
+        extended: true
+
+    - name: Build
+      run: hugo --minify
+
+    - name: List output
+      run: ls
+
+    - name: Deploy
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: sftp://91.204.46.13/httpdocs
+        ftp-username: hosting128654
+        ftp-password: ${{ secrets.SSH_PASSWORD }}
+        local-dir: public
+        known-hosts: 91.204.46.13 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBCJfxmUvaf8/jZ/dhdMCAgb9pYBCZ5GSg71T+raIoFbiQGfLu9yj+EONidAf9bEG57nJHeUhgI5S5JE4yXcdviJxVGkvfTXqk91UGibpPxFnU1+KAZMp0UAOGX9gjdSnvcxbuH2F8j6XTFBGcqjJhaWuIT7jkR4UXRcJlocvS1DiSn90+kElsuPu5ox04U+UvLaY6s/7Gri+Q6eRoaikYTCLHxscX8cLtr4zGQb/y66XWQGywWmoRxKKwWZleCCnOa9twe+jhErRqiK0OIlQdUC7XocSzyGxyyoHE1XxqSzwIAXwLWaZ6sgCS0XowDcrXI9TO5HeA6JptqzUtf2bp
