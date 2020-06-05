@@ -8,9 +8,8 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 
 ## 1: LIEBE
 
-*In Praise of Love* Alain Badiou
+*In Praise of Love* - Alain Badiou
 
-*More than two: a practical guide to polyamory* Franlin Veaux and Eve Rickert  
-[foreward + introduction + part 1 + as much of the rest as tickles your fancy]
+*More than two: a practical guide to polyamory* - Franlin Veaux and Eve Rickert
 
-*Manifesto of cares*
+*Manifesto of cares* - anonymous
