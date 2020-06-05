@@ -5,7 +5,9 @@ date: 2020-06-05T18:00:00+01:00
 
 # Reading Group
 
-## #1: LIEBE
+Join our group and follow discussions [here](https://wald.liebechaos.org/channel/readinggroup)
+
+**#1: LIEBE**
 
 *In Praise of Love* Alain Badiou
 
