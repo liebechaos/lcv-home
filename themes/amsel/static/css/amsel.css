@@ -30,6 +30,10 @@ h3 {
     margin: 1em auto .6rem;
 }
 
+em {
+    font-style: italic;
+}
+
 p, ol, ul {
     color: #333;
     font-size: 1rem;
