@@ -1,13 +1,12 @@
 ---
 title: "Reading Group"
-date: 2020-06-05T18:00:00+01:00
+date: 2020-06-04T06:00:00+01:00
+draft: false
 ---
-
-# Reading Group
 
 Join our group and follow discussions [here](https://wald.liebechaos.org/channel/readinggroup)
 
-**#1: LIEBE**
+## 1: LIEBE
 
 *In Praise of Love* Alain Badiou
 
