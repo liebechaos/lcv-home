@@ -1,9 +1,9 @@
 ---
-title: "Reading Club"
+title: "Reading Group"
 date: 2020-06-05T18:00:00+01:00
 ---
 
-# Reading Club
+# Reading Group
 
 ## #1: LIEBE
 
