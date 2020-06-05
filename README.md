@@ -18,6 +18,7 @@ Start by pasting this bit into the file
 title: "hello"
 date: 2019-11-21T18:00:00+01:00
 ---
+The new Verein-activity is called hello and you can find out everything about it below...
 ```
 
 then, replace the title and date with something meaningful such as the start of
