@@ -10,6 +10,6 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 
 *In Praise of Love* - Alain Badiou
 
-*More than two: a practical guide to polyamory* - Franlin Veaux and Eve Rickert
+*More than two: a practical guide to polyamory* - Franklin Veaux and Eve Rickert
 
 *Manifesto of cares* - anonymous
