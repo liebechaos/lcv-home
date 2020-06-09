@@ -6,7 +6,8 @@ draft: false
 
 Join our group and follow discussions [here](https://wald.liebechaos.org/channel/readinggroup)
 
-## #1: LIEBE
+## #1: LIEBE  
+18th of June 2020
 
 *In Praise of Love* - Alain Badiou
 
