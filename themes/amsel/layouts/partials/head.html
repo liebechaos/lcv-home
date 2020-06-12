@@ -14,11 +14,10 @@
   <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
   {{- end }}
 
-  <!-- CSS -->
-  <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/reset.css">
-  <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/fonts.css">
-  <link type="text/css" rel="stylesheet" href="{{ .Site.BaseURL }}css/amsel.css">
-  {{ partial "head_fonts.html" . }}
+  <!-- Styles -->
+  {{ $mainStyle := resources.Get "scss/index.scss" | resources.ToCSS }}
+  {{ $style := slice (resources.Get "reset.css") $mainStyle | resources.Concat "styles.css" }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">

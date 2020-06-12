@@ -1,0 +1,18 @@
+@import "fonts.scss";
+@import "typography.scss";
+@import "nav.scss";
+@import "footer.scss";
+@import "components.scss";
+
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    min-width: 320px;
+    line-height: 1.25rem;
+}
+
+main {flex-shrink: 0;}

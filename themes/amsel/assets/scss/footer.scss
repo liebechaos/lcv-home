@@ -1,0 +1,16 @@
+footer {
+    font-size: 0.875rem;
+    color: #888;
+    padding: 1.25rem .75em;
+    margin-top: 2.5rem;
+    flex-shrink: 0;
+}
+
+footer a { color: #666; }
+
+
+@media only screen and (min-width: 700px){
+    footer {
+        padding: 1em 4.75em;
+    }
+}

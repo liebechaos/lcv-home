@@ -1,0 +1,79 @@
+/* Typography */
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2rem;
+    line-height: 32px;
+    font-weight: bold;
+    margin: 1.875rem auto 1.25rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.875rem;
+    margin: 1.875rem auto 1.25rem;
+}
+
+h3 {
+    margin: 1em auto .6rem;
+}
+
+em {
+    font-style: italic;
+}
+
+p, ol, ul {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+p:last-child, ol:last-child, ul:last-child { margin-bottom: 0 }
+ol, ul {
+    list-style: square;
+    padding-left: 1.25rem;
+}
+
+a:visited, a:active { color: #333; }
+
+li + li {
+    margin-top: 0.625rem;
+}
+
+figcaption {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-top: 0.625rem;
+    font-style: italic;
+    color: #666;
+}
+
+@media only screen and (min-width: 700px){
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+        margin: 3.75rem 0;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.875rem;
+    }
+
+    p, ul, ol {
+        margin-bottom: 1.875rem;
+    }
+
+    li + li {
+        margin-top: 1.25rem;
+    }
+
+    ol, ul {
+        list-style: square;
+        padding-left: 0;
+    }
+}
