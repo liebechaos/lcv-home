@@ -12,3 +12,8 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 *In Praise of Love* - Alain Badiou  
 *More than two: a practical guide to polyamory* - Franklin Veaux and Eve Rickert  
 *Manifesto of cares* - anonymous
+
+## #2: MORE LIEBE  
+14th of July 2020
+
+*All About Love* - bell hooks
