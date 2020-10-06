@@ -24,4 +24,4 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 *Order out of chaos* - Prigogine and Stengers  
 *Chaos making a new science* - Gleick and James  
 *Chaos, Courage, Creativity* - Abraham  
-*Myth and meaning in early Taoism 'Country Of Women' and 'People Without Anuses'* - Prigogine and Stengers
+*Myth and meaning in early Taoism 'Country Of Women' and 'People Without Anuses'*
