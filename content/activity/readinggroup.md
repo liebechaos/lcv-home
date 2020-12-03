@@ -19,9 +19,19 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 *All About Love* - bell hooks
 
 ## #2: CHAOS
-23rd of October 2020
+2nd of December 2020
 
 *Order out of chaos* - Prigogine and Stengers  
 *Chaos making a new science* - Gleick and James  
 *Chaos, Courage, Creativity* - Abraham  
 *Myth and meaning in early Taoism 'Country Of Women' and 'People Without Anuses'*
+
+## #3: VEREIN
+6th of January 2021
+
+*The Symbiotic Planet: A New Look at Evolution* - Lynn Margulis
+
+## #4: tba
+3rd of February 2021
+
+tba
