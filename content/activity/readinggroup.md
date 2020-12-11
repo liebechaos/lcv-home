@@ -4,7 +4,8 @@ date: 2020-06-04T06:00:00+01:00
 draft: false
 ---
 
-Join our group and follow discussions [here](https://wald.liebechaos.org/channel/readinggroup)
+Join our group and follow discussions [here](https://wald.liebechaos.org/channel/readinggroup)  
+We meet the first Monday of the month
 
 ## #1: LIEBE  
 18th of June 2020
@@ -27,11 +28,11 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 *Myth and meaning in early Taoism 'Country Of Women' and 'People Without Anuses'*
 
 ## #3: VEREIN
-6th of January 2021
+4th of January 2021
 
 *The Symbiotic Planet: A New Look at Evolution* - Lynn Margulis
 
 ## #4: tba
-3rd of February 2021
+1st of February 2021
 
 tba
