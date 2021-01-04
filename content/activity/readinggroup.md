@@ -31,7 +31,7 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 
 *The Symbiotic Planet: A New Look at Evolution* - Lynn Margulis
 
-## #4: tba
-1st of February 2021
+## #4: BE LOVED
+Date in February 2021 tba
 
-tba
+*Beloved* - Toni Morrison
