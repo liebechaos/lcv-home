@@ -31,7 +31,12 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 
 *The Symbiotic Planet: A New Look at Evolution* - Lynn Margulis
 
-## #4: BE LOVED
-Date in February 2021 tba
+## #4: BELOVED
+15th of February 2021
 
 *Beloved* - Toni Morrison
+
+## #5: THE DISPOSSESSED
+24th of March 2021
+
+*The Dispossessed* - Ursula K. Le Guin
