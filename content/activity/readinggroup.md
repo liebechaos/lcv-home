@@ -37,6 +37,11 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 *Beloved* - Toni Morrison
 
 ## #5: THE DISPOSSESSED
-24th of March 2021
+26th of April 2021
 
 *The Dispossessed* - Ursula K. Le Guin
+
+## #5: BRAIDING SWEETGRASS
+date tbc
+
+*Braiding Sweetgrass* - Robin Wall Kimmerer
