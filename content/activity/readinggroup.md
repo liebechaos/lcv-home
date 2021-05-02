@@ -41,7 +41,7 @@ Join our group and follow discussions [here](https://wald.liebechaos.org/channel
 
 *The Dispossessed* - Ursula K. Le Guin
 
-## #5: BRAIDING SWEETGRASS
+## #6: BRAIDING SWEETGRASS
 date tbc
 
 *Braiding Sweetgrass* - Robin Wall Kimmerer
